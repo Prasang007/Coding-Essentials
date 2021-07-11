@@ -18,5 +18,5 @@ int maxDistance(string S)
 int main() {
     string s ;
     maxDistance(s);
-    return 0;
+    return 0;        
 }
