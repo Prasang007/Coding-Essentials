@@ -8,9 +8,9 @@ using namespace std;
 void swap(int *x, int *y)
 {
 	int temp = *x;
-	*x = *y;
+	*x = *y;     
 	*y = temp;
-}
+}       
 
 // This function sorts arr[0..n-1] in wave form, i.e.,
 // arr[0] >= arr[1] <= arr[2] >= arr[3] <= arr[4] >= arr[5]..
