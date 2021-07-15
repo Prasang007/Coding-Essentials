@@ -9,7 +9,7 @@ void swap(int *x, int *y)
 {
 	int temp = *x;
 	*x = *y;     
-	*y = temp;
+	*y = temp;     
 }       
 
 // This function sorts arr[0..n-1] in wave form, i.e.,
