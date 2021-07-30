@@ -11,8 +11,8 @@ bool check(int mid, int array[], int n, int K)
 	for (int i = 0; i < n; i++) {
 
 		// If individual element is greater
-		// maximum possible sum
-		if (array[i] > mid)
+		// maximum possible sum       
+		if (array[i] > mid) 
 			return false;
 
 		// Increase sum of current sub - array
