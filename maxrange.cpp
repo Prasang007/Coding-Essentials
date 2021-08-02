@@ -11,7 +11,7 @@ int maxDistance(string S)
             l++;
         if (S[i] == 'R')
             r++;
-    }
+    }    
 
     return abs(n - (l+r)) +  abs(l-r));
 }
